@@ -1,0 +1,244 @@
+/*公共*/
+.pr{position: relative;}
+.fl{float: left;}
+.fr{float: right;}
+
+.mt10{margin-top: 10px;}
+.mt22{margin-top: 22px;}
+.mt24{margin-top: 24px;}
+.mt60{margin-top: 60px;}
+
+.mr10{margin-right: 10px;}
+.mL75{margin-left: 75px;}
+
+.cle:after{
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+/*重置*/
+body {
+  margin:0; 
+  padding:0;
+    font:12px/1.5 helvetica,arial,"Microsoft YaHei",\5b8b\4f53;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{
+  padding:0; margin:0;
+}
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0; height:auto;}
+h1,h2,h3,h4,h5,h6{
+  font-size:inherit; 
+  font-weight:normal;
+}
+address,cite,code,em,th,i,var{
+  font-weight:normal; 
+  font-style:normal;
+}
+.clearfix{*zoom:1;}
+.clearfix:after{
+  display:block; 
+  overflow:hidden; 
+  clear:both; height:0;
+    visibility:hidden; 
+    content:".";}
+a:link,a:visited
+{
+    color:#000;
+    text-decoration: none;
+}
+input
+{
+    outline: 0;
+    outline: none;
+}
+
+/*cartTitle*/
+.cartTitle{
+  width: 1164px;
+  height: 50px;
+  background: #eee;
+  border: 1px solid #aaa;
+  margin:50px auto;
+  padding:0 13px;
+}
+.cartTitle li{
+  float: left;
+  margin-top: 19px;
+}
+.cartTitle li.w_1 .check:checked{
+  width: 24px;
+}
+.cartTitle li.w_2{
+  width:110px;
+  margin-left:33px;
+  /*margin-right:20px;*/
+}
+.cartTitle li.w_3{
+  width: 574px;
+}
+.cartTitle li.w_4{
+  width: 109px;
+}
+.cartTitle li.w_5{
+  width: 123px;
+}
+.cartTitle li.w_6{
+  width: 76px;
+}
+
+/* cartWrap */
+.cartWrap{
+  width: 1191px;
+  margin:0 auto;
+}
+.line{
+  height: 1px;
+  width: 100%;
+  clear: both;
+  background: #000;
+  margin:10px 0;
+}
+.goodsWrap{
+  width: 1191px;
+  height: 143px;
+  background: #FFF4E8;
+  border:1px solid #C08647;
+}
+.goodsWrap li{
+  float: left;
+  margin-top: 18px
+}
+.goodsWrap li.w_1{
+  margin: 24px 22px 0 13px;
+}
+.goodsWrap li.w_2{
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  border:1px solid #C08647;
+  background: #fff;
+  margin-right: 13px;
+}
+.goodsWrap li.w_2 img{
+  width: 96px;
+  height: 96px;
+}
+.goodsWrap li.w_3{
+  width: 545px;
+}
+.goodsWrap li.w_4{
+  width: 84px;
+  text-align: center;
+}
+.goodsWrap li.w_5{
+  width: 128px;
+}
+.goodsWrap li.w_6{
+  width: 122px;
+  text-align: center;
+}
+
+/*enterGoodsNum*/
+.enterGoodsNum{
+  width: 94px;
+  height: 24px;
+  margin: 0 auto;
+  border: 1px solid #666;
+  position: relative;
+}
+.minsBtn, 
+.addBtn{
+  width: 19px;
+  height: 24px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;border:0;
+}
+.minsBtn{
+  left: 0;
+  border-right: 1px solid #666;
+}
+.addBtn{
+  right: 0;
+  border-left: 1px solid #666;
+}
+
+.minsBtn:hover, 
+.addBtn:hover{
+  background: #eee;
+}
+
+.enterNum{
+  width: 53px;
+  height: 24px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border:0;
+}
+
+.cartFooter{
+  width: 1191px;
+  height: 60px;
+  margin: 24px auto;
+  background: #fff;
+  border: 1px solid #666;
+  position: relative;
+}
+.footerCheck{
+  float: left;
+  margin:24px 11px 0 11px;
+}
+
+.footerA{
+  position: absolute;
+  top: 10px;
+  right:290px; 
+  padding-right: 15px;
+}
+.footerA i{
+  font-weight: bold;
+  color: #f00;
+  padding: 0 5px;
+}
+.footerB{
+  position: absolute;
+  top: 8px;
+  right: 150px;
+  padding-right: 15px;
+  height: 22px;
+  line-height: 22px;
+}
+.footerB i{
+  font-weight: bold;
+  color: #f00;
+  padding: 0 5px;
+}
+.footerC{
+  position: absolute;
+  top: 36px;
+  right:150px; 
+}
+
+.gotoPay{
+  width: 115px;
+  height: 60px;
+  background: #f00;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  float: right;
+}
